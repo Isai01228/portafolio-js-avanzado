@@ -7,4 +7,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(8000)
 
-console.log('Servidor iniciado');
+console.log('Servidor iniciado')
+//PROBAR EN EL NAVEGADOR ESCRIBIENDO => http://localhost:8000/
