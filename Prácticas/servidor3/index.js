@@ -9,7 +9,7 @@ const server = http.createServer((req, res) =>{
 
     const urlObject = url.parse(req.url)
     const path = urlObject.path
-    // const pathName = urlObject.pathname
+    // const pathName = ur      lObject.pathname    
     console.log(`Este es mi path: ${path}`)
 
     let status = 0
